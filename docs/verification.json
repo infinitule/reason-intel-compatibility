@@ -1,0 +1,150 @@
+{
+  "scope": "Artifact inspection and local startup checks; not a comprehensive compatibility or security audit.",
+  "host": {
+    "architecture": "x86_64",
+    "macos": "15.7.9"
+  },
+  "original": {
+    "app_version": "0.1.109",
+    "minimum_macos_metadata": "13.0",
+    "main_executable_arch": "arm64",
+    "hang_recovery_arch": "arm64",
+    "electron_version": "44.9.0"
+  },
+  "rebuilt": {
+    "app_version": "0.1.109",
+    "electron_version": "44.9.0",
+    "bundle_identifier": "com.reasonmachines.desktop",
+    "minimum_macos_metadata": "13.0",
+    "asar_file_count": 53,
+    "asar_changed_files": [
+      "dist/main.cjs"
+    ],
+    "exact_two_main_js_patches_verified": true,
+    "asar_header_hash": "51fd6520b3f77a04386bdf5b790baf147dfbe9546d179073b2279757e4bcf61d",
+    "all_asar_file_integrity_hashes_verified": true,
+    "plist_changes": {
+      "ElectronAsarIntegrity": {
+        "original": {
+          "Resources/app.asar": {
+            "algorithm": "SHA256",
+            "hash": "eb94b5ced0c7d71240dbc997db8f3e69ceb047561da220adfcfe352c556177d1"
+          }
+        },
+        "rebuilt": {
+          "Resources/app.asar": {
+            "algorithm": "SHA256",
+            "hash": "51fd6520b3f77a04386bdf5b790baf147dfbe9546d179073b2279757e4bcf61d"
+          }
+        }
+      },
+      "ReasonLocalIntelRebuild": {
+        "original": null,
+        "rebuilt": true
+      }
+    },
+    "mach_o_files": [
+      {
+        "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Electron Framework",
+        "architectures": "x86_64"
+      },
+      {
+        "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers/app_shim_loader",
+        "architectures": "x86_64"
+      },
+      {
+        "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Helpers/chrome_crashpad_handler",
+        "architectures": "x86_64"
+      },
+      {
+        "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libffmpeg.dylib",
+        "architectures": "x86_64"
+      },
+      {
+        "path": "Contents/Frameworks/Electron Framework.framework/Versions/A/Libraries/libvk_swiftshader.dylib",
+        "architectures": "x86_64"
+      },
+      {
+        "path": "Contents/Frameworks/Electron Helper (GPU).app/Contents/MacOS/Electron Helper (GPU)",
+        "architectures": "x86_64"
+      },
+      {
+        "path": "Contents/Frameworks/Electron Helper (Plugin).app/Contents/MacOS/Electron Helper (Plugin)",
+        "architectures": "x86_64"
+      },
+      {
+        "path": "Contents/Frameworks/Electron Helper (Renderer).app/Contents/MacOS/Electron Helper (Renderer)",
+        "architectures": "x86_64"
+      },
+      {
+        "path": "Contents/Frameworks/Electron Helper.app/Contents/MacOS/Electron Helper",
+        "architectures": "x86_64"
+      },
+      {
+        "path": "Contents/Frameworks/Mantle.framework/Versions/A/Mantle",
+        "architectures": "x86_64"
+      },
+      {
+        "path": "Contents/Frameworks/ReactiveObjC.framework/Versions/A/ReactiveObjC",
+        "architectures": "x86_64"
+      },
+      {
+        "path": "Contents/Frameworks/Squirrel.framework/Versions/A/Resources/ShipIt",
+        "architectures": "x86_64"
+      },
+      {
+        "path": "Contents/Frameworks/Squirrel.framework/Versions/A/Squirrel",
+        "architectures": "x86_64"
+      },
+      {
+        "path": "Contents/MacOS/Reason",
+        "architectures": "x86_64"
+      }
+    ],
+    "codesign_verification": {
+      "exit_code": 0,
+      "output": ""
+    },
+    "signing_details": {
+      "exit_code": 0,
+      "output": "Executable=Reason.app/Contents/MacOS/Reason\nIdentifier=com.reasonmachines.desktop\nFormat=app bundle with Mach-O thin (x86_64)\nCodeDirectory v=20400 size=339 flags=0x2(adhoc) hashes=4+3 location=embedded\nSignature=adhoc\nInfo.plist entries=36\nTeamIdentifier=not set\nSealed Resources version=2 rules=13 files=17\nInternal requirements count=0 size=12"
+    },
+    "applications_shortcut": "/Applications",
+    "bundled_cli_sha256": "c1b5347ef92990c511bd4abe75105225bb32b7d319e809f1cf29e398c6341f9b",
+    "bundled_cli_matches_original_checksums": true
+  },
+  "inputs": {
+    "electron_archive_sha256": "fd9d60a1d6cbe98105c3cdd345f7dcca0961364650e6fbbf49d13e58b0f34786",
+    "cli_archive_sha256": "c1b5347ef92990c511bd4abe75105225bb32b7d319e809f1cf29e398c6341f9b"
+  },
+  "output": {
+    "filename": "Reason-0.1.109-Intel.dmg",
+    "size_bytes": 186774846,
+    "sha256": "2833074b90362aac9763442a70fd74a1cee1ee5cd3655122cef61be60e2e4e83"
+  },
+  "local_observations": {
+    "app_ready_event_present_in_current_rotating_log": false,
+    "cli_install_receipt_present": true,
+    "isolated_smoke_loaded_remote_desktop_page": true,
+    "isolated_smoke_rendered_reason_interface": true,
+    "user_confirmed_working_in_chat": true,
+    "initial_install_observations_recorded_utc": "2026-10-22T17:41:37Z",
+    "app_ready_event_observed_during_initial_install": true,
+    "cli_version_during_initial_test": "0.2.529",
+    "initial_install_evidence_source": "Tool outputs captured in the rebuild session; current breadcrumbs rotate and no full logs are published."
+  },
+  "not_tested": [
+    "Full agent workflows",
+    "Complete permissions flow",
+    "Other Intel Macs",
+    "Other macOS versions",
+    "Comprehensive security audit",
+    "Behavior of future CLI updates"
+  ],
+  "artifact_verification_timestamp_utc": "2026-10-23T05:00:08Z",
+  "disk_image_checks": {
+    "original_hdiutil_verify_exit_code": 0,
+    "rebuilt_hdiutil_verify_exit_code": 0
+  },
+  "github_asset_digest_matches_local_dmg": true
+}

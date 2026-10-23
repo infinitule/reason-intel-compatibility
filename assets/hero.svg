@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="570" viewBox="0 0 1200 570" role="img" aria-labelledby="title desc">
+<title id="title">Reason on Intel — unofficial compatibility rebuild</title><desc id="desc">Reason 0.1.109, Electron 44.9.0 and Intel x86_64. Locally tested on macOS 15.7.9. Ad-hoc signed; desktop updates and native hang recovery disabled.</desc>
+<defs><linearGradient id="bg" x2="1" y2="1"><stop stop-color="#071526"/><stop offset="1" stop-color="#0c2742"/></linearGradient><linearGradient id="accent" x2="1" y2="1"><stop stop-color="#72e6df"/><stop offset="1" stop-color="#64a4ff"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#8fbaff" stroke-opacity=".05"/></pattern></defs>
+<rect width="1200" height="570" rx="24" fill="url(#bg)"/><rect width="1200" height="570" rx="24" fill="url(#grid)"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<rect x="52" y="44" width="300" height="30" rx="15" fill="#173a51"/><text x="70" y="64" font-size="12" font-weight="700" letter-spacing="2" fill="#8be8e5">COMMUNITY COMPATIBILITY BUILD</text>
+<text x="52" y="160" font-size="72" font-weight="700" fill="#f4f8ff">Reason on Intel.</text>
+<text x="55" y="205" font-size="26" fill="#a9c6df">A normal Mac app. An Intel runtime.</text>
+<text x="55" y="245" font-size="17" fill="#8faec9">Local install and startup checked on macOS 15.7.9.</text>
+<g transform="translate(885 90)"><path d="M-18 32H0M-18 64H0M-18 96H0M-18 128H0M180 32H198M180 64H198M180 96H198M180 128H198M32-18V0M64-18V0M96-18V0M128-18V0M32 180V198M64 180V198M96 180V198M128 180V198" stroke="#76cdda" stroke-width="4"/>
+<rect width="180" height="180" rx="22" fill="#0b2235" stroke="url(#accent)" stroke-width="3"/><rect x="19" y="19" width="142" height="142" rx="13" fill="#13334b"/><text x="90" y="91" text-anchor="middle" font-size="39" font-weight="700" fill="#ebfaff">x86_64</text><text x="90" y="120" text-anchor="middle" font-size="15" letter-spacing="3" fill="#80dbd6">INTEL MAC</text></g>
+<g transform="translate(52 310)"><rect width="348" height="105" rx="13" fill="#102b42" stroke="#254760"/><text x="23" y="33" font-size="12" letter-spacing="2" fill="#8faec9">REASON</text><text x="23" y="78" font-size="34" font-weight="700" fill="#f5f9ff">0.1.109</text></g>
+<g transform="translate(426 310)"><rect width="348" height="105" rx="13" fill="#102b42" stroke="#254760"/><text x="23" y="33" font-size="12" letter-spacing="2" fill="#8faec9">ELECTRON RUNTIME</text><text x="23" y="78" font-size="34" font-weight="700" fill="#f5f9ff">44.9.0</text></g>
+<g transform="translate(800 310)"><rect width="348" height="105" rx="13" fill="#102b42" stroke="#254760"/><text x="23" y="33" font-size="12" letter-spacing="2" fill="#8faec9">BUNDLED INTEL CLI</text><text x="23" y="78" font-size="34" font-weight="700" fill="#f5f9ff">0.2.529</text></g>
+<path d="M52 451H1148" stroke="#29465e"/><circle cx="61" cy="486" r="5" fill="#e6b976"/><text x="78" y="492" font-size="17" fill="#e9c591">Unofficial · locally ad-hoc signed · limited validation</text><text x="52" y="526" font-size="14" fill="#8faec9">Desktop self-updates and native hang recovery are disabled in this build.</text>
+</g></svg>
